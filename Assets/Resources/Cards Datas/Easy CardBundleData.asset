@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ad7f76e434ca14b8d07a0d454864b5, type: 3}
+  m_Name: Easy CardBundleData
+  m_EditorClassIdentifier: 
+  _rows: 1
+  _columns: 3
+  _cardsData:
+  - _id: R
+    _sprite: {fileID: -6342808464625005154, guid: fc89063ea35129849801a6eec1696e42, type: 3}
+  - _id: T
+    _sprite: {fileID: -4461999128152558772, guid: fc89063ea35129849801a6eec1696e42, type: 3}
+  - _id: ' E'
+    _sprite: {fileID: 4652326554734856401, guid: 37f047ba01bd53d4ca7bdecbdf31811e, type: 3}

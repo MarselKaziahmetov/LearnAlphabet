@@ -1,0 +1,17 @@
+{
+    "name": "LearnAlphabet",
+    "rootNamespace": "LearnAlphabet",
+    "references": [
+        "GUID:8cd6cf50857df0140a667ec298b95de9",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

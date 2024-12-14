@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 41138404}
   - component: {fileID: 41138403}
   - component: {fileID: 41138402}
+  - component: {fileID: 41138405}
   m_Layer: 0
   m_Name: QuestionCanvas
   m_TagString: Untagged
@@ -223,6 +224,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &41138405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41138400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf7fd8eefc18da40812e56bbdbe75ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questText: {fileID: 1309013577}
 --- !u!1 &259392120
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +331,7 @@ GameObject:
   - component: {fileID: 432585412}
   - component: {fileID: 432585413}
   m_Layer: 0
-  m_Name: CardsBackplate
+  m_Name: CardBundleView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -400,9 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6244701c006dd34d8b554fe49daeef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardsBackplate: {fileID: 0}
-  _cardsHolder: {fileID: 0}
-  _offset: 0
+  _offset: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,10 +670,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dee34cbbb6edbaa4d8d352daccdca094, type: 2}
   - {fileID: 11400000, guid: 1d4616b3bb4ad654d909fadd013caf2c, type: 2}
   - {fileID: 11400000, guid: d1e3dc2e863cefb4ba299a0e5e54dfe6, type: 2}
-  _questText: {fileID: 1309013577}
-  _cardsBackplate: {fileID: 432585411}
+  _cardBundleView: {fileID: 432585413}
   _cardsHolder: {fileID: 1759675216}
-  _offset: 0.5
+  _questGiver: {fileID: 41138405}
   _UiView: {fileID: 1445605121}
 --- !u!1 &948067100
 GameObject:
